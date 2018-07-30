@@ -1,0 +1,2 @@
+# hamusChangeable_civics_MachineIntelligence
+Stellaris MOD
