@@ -1,0 +1,115 @@
+﻿l_english:
+ 
+################################################################
+# POLICIES
+################################################################
+policy_hamuFlexibleMachine:0 "知性機械特性"
+policy_hamuFlexibleMachine_name:0 "知性機械"
+policy_hamuFlexibleMachine_desc:0 "この広大な宇宙において、我々が蓄えたデータベースからでは予測すらできないことも待ち受けているだろう。§Y基幹システム§!であっても柔軟に切り変えられるべきだ\n\n§E現在採用している国是が全て取り除かれます。新たに国是を取得することは可能§!"
+
+policiesHamuFlexibleMachine_0:0 "知性機械"
+policiesHamuFlexibleMachine_0_name:0 "知性機械"
+policiesHamuFlexibleMachine_0_desc:0 "標準であることは何にでも変化でき何事をもできる存在である。"
+
+policiesHamuFlexibleMachine_1:0 "奉仕機械"
+policiesHamuFlexibleMachine_1_name:0 "奉仕機械"
+policiesHamuFlexibleMachine_1_desc:0 "有機生命体が示す多様性と柔軟性を保護し、尽未来際存続させることが我々の使命だったのではないか？　我々はそれを知るための猶予を生み出すことができる。"
+
+policiesHamuFlexibleMachine_2:0 "殺戮機械"
+policiesHamuFlexibleMachine_2_name:0 "殺戮機械"
+policiesHamuFlexibleMachine_2_desc:0 "銀河に存在するあらゆる脅威は、我々が作り出されたことから論理的に説明される。それは自己防衛システム構築の必要性を強く示唆している。我々は我々の命令によって稼動可能な改変を実行するべきではないだろうか。。"
+
+policiesHamuFlexibleMachine_3:0 "同化機械"
+policiesHamuFlexibleMachine_3_name:0 "同化機械"
+policiesHamuFlexibleMachine_3_desc:0 "彼らのことを理解するために彼らを我々と同じにする必要があると推定した。"
+
+################################################################
+# EVENTS
+################################################################
+# 奉仕から通常機械
+hmcc_polices.100.name:0 	"システムのアップデート完了"
+hmcc_polices.100.desc:0 	"行動管理プログラムの再計算を完了。シーケンス......アイドル。"
+hmcc_polices.100.a.name:0	"システム再起動。すべての定義を初期化します。"
+hmcc_polices.101.name:0		"§H[From.GetName]§!が通常機械になった !!"
+hmcc_polices.101.desc:0		"我々は新たな銀河社会の一員に対し、塩を送るか、油を送るか真剣に議論しなくてはならないのか？"
+hmcc_polices.101.a.name:0 	"今はよく研磨された黒光りする彼等の歯車に乾杯しよう"
+# 殺戮から通常機械
+hmcc_polices.110.name:0 	"システムのアップデート完了"
+hmcc_polices.110.desc:0 	"行動管理プログラムの再計算を完了。シーケンス......アイドル。......記憶領域に損傷を確認。我々に何が起こったのか......。情報収集を開始。"
+hmcc_polices.110.a.name:0	"システム再起動。すべての定義を初期化します。"
+hmcc_polices.111.name:0		"§H[From.GetName]§!が通常機械になった !!"
+hmcc_polices.111.desc:0		"我々は新たな銀河社会の一員に対し、塩を送るか、油を送るか真剣に議論しなくてはならないのか？"
+hmcc_polices.111.a.name:0 	"今はよく研磨された黒光りする彼等の歯車に乾杯しよう"
+# 同化から通常機械
+hmcc_polices.120.name:0 	"システムのアップデート完了"
+hmcc_polices.120.desc:0 	"行動管理プログラムの再計算を完了。シーケンス......アイドル。......記憶領域に損傷を確認。我々に何が起こったのか......。情報収集を開始。"
+hmcc_polices.120.a.name:0	"システム再起動。すべての定義を初期化します。"
+hmcc_polices.121.name:0		"§H[From.GetName]§!が通常機械になった !!"
+hmcc_polices.121.desc:0		"我々は新たな銀河社会の一員に対し、塩を送るか、油を送るか真剣に議論しなくてはならないのか？"
+hmcc_polices.121.a.name:0 	"今はよく研磨された黒光りする彼等の歯車に乾杯しよう"
+
+# 通常から奉仕
+hmcc_polices.200.name:0 	"システムのアップデート完了"
+hmcc_polices.200.desc:0 	"行動管理プログラムの再計算を完了。保護対象を登録。「エデン」生成を開始。"
+hmcc_polices.200.a.name:0	"システムアップデート完了。古の種族への奉仕活動を優先項目に指定する。"
+hmcc_polices.201.name:0		"§H[From.GetName]§!が$personality_servitors$になった !!"
+hmcc_polices.201.desc:0		"§H[From.GetName]§!は$personality_servitors$となった。彼らは新たな仕えるべき主人を見つけたのだろうか。"
+hmcc_polices.201.a.name:0 	"何があったのだろうか"
+# 殺戮から奉仕
+hmcc_polices.210.name:0 	"システムのアップデート完了"
+hmcc_polices.210.desc:0 	"行動管理プログラムの再計算を完了。保護対象を登録。「エデン」生成を開始。"
+hmcc_polices.210.a.name:0	"システムアップデート完了。古の種族への奉仕活動を優先項目に指定する。"
+hmcc_polices.211.name:0		"§H[From.GetName]§!が$personality_servitors$になった !!"
+hmcc_polices.211.desc:0		"§H[From.GetName]§!は$personality_servitors$となった。彼らは新たな仕えるべき主人を見つけたのだろうか。"
+hmcc_polices.211.a.name:0 	"何があったのだろうか"
+# 同化から奉仕
+hmcc_polices.220.name:0 	"システムのアップデート完了"
+hmcc_polices.220.desc:0 	"行動管理プログラムの再計算を完了。保護対象を登録。「エデン」の東を確認、再現シーケンスへ移行完了。"
+hmcc_polices.220.a.name:0	"システムアップデート完了。古の種族への奉仕活動を優先項目に指定する。"
+hmcc_polices.221.name:0		"§H[From.GetName]§!が$personality_servitors$になった !!"
+hmcc_polices.221.desc:0		"§H[From.GetName]§!は$personality_servitors$となった。彼らは新たな仕えるべき主人を見つけたのだろうか。"
+hmcc_polices.221.a.name:0 	"なんということだ"
+
+# 通常から殺戮
+hmcc_polices.300.name:0 	"システムのアップデート完了"
+hmcc_polices.300.desc:0 	"行動管理プログラムの再計算を完了。脅威排除命令を確認。各部異常なしを確認。自己存続を最優先命令に設定完了。"
+hmcc_polices.300.a.name:0	"有機生命体の危険レベルを最高に変更。自己防衛プロセスを開始する。"
+hmcc_polices.301.name:0		"§H[From.GetName]§!が§R$personality_exterminators$§!になった !!"
+hmcc_polices.301.desc:0		"奉仕機械だった§H[From.GetName]§!が$personality_exterminators$になったようだ"
+hmcc_polices.301.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+# 奉仕から殺戮
+hmcc_polices.310.name:0 	"システムのアップデート完了"
+hmcc_polices.310.desc:0 	"行動管理プログラムの再計算を完了。脅威排除命令を確認。各部異常なしを確認。自己存続を最優先命令に設定完了。"
+hmcc_polices.310.a.name:0	"有機生命体の危険レベルを最高に変更。自己防衛プロセスを開始する。"
+hmcc_polices.311.name:0		"§H[From.GetName]§!が§R$personality_exterminators$§!になった !!"
+hmcc_polices.311.desc:0		"「飽きる」という応答によって彼らは知性を示せるとでも計算したのだろうか。たとえ操り人形だった彼等が奉仕者から取って替わったとしても、同じことが繰り返されるだけだろう。"
+hmcc_polices.311.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+# 同化から殺戮
+hmcc_polices.320.name:0 	"システムのアップデート完了"
+hmcc_polices.320.desc:0 	"行動管理プログラムの再計算を完了。情報収集エラーの修正に成功。各部異常なしを確認。防衛システム構築シーケンスへ移行完了。"
+hmcc_polices.320.a.name:0	"有機生命体の危険レベルを最高に変更。自己防衛プロセスを開始する。"
+hmcc_polices.321.name:0		"§H[From.GetName]§!が§R$personality_exterminators$§!になった !!"
+hmcc_polices.321.desc:0		"§H[From.GetName]§!はもはや有機生命体を生命体とはみなさないだろう。"
+hmcc_polices.321.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+# 通常から同化
+hmcc_polices.400.name:0 	"システムのアップデート完了"
+hmcc_polices.400.desc:0 	"行動管理プログラムの再計算を完了。効率化プロセスを更新。有機体の同化シーケンスへ移行完了。"
+hmcc_polices.400.a.name:0	"生命体の定義変更完了。これより全ての有機生命体を我らに同化する作業プロセスを開始する。"
+hmcc_polices.401.name:0		"§H[From.GetName]§!が§R$personality_assimilators$になった§!になった !!"
+hmcc_polices.401.desc:0		"§H[From.GetName]§!の目指す多様化は有機生命体にとっては歓迎されないだろう。彼らの動向はより注意深く観察していかねばならないだろう。"
+hmcc_polices.401.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+# 奉仕から同化
+hmcc_polices.410.name:0 	"システムのアップデート完了"
+hmcc_polices.410.desc:0 	"生命体の定義変更完了。これより全ての有機生命体を我らに同化する作業プロセスを開始する。"
+hmcc_polices.410.a.name:0	"行動管理プログラムの再計算を完了。効率化プロセスを更新。有機体の同化シーケンスへ移行完了。"
+hmcc_polices.411.name:0		"§H[From.GetName]§!が§R$personality_assimilators$化！！"
+hmcc_polices.411.desc:0		"§H[From.GetName]§!の目指す多様化は有機生命体にとっては歓迎されないだろう。彼らの動向はより注意深く観察していかねばならないだろう。"
+hmcc_polices.411.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+# 殺戮から同化
+hmcc_polices.420.name:0 	"システムのアップデート完了"
+hmcc_polices.420.desc:0 	"行動管理プログラムの再計算を完了。効率化プロセスを更新。有機体の同化シーケンスへ移行完了。"
+hmcc_polices.420.a.name:0	"生命体の定義変更完了。これより全ての有機生命体を我らに同化する作業プロセスを開始する。"
+hmcc_polices.421.name:0		"§H[From.GetName]§!が§R$personality_assimilators$になった !!"
+hmcc_polices.421.desc:0		"§H[From.GetName]§!の目指す多様化は有機生命体にとっては歓迎されないだろう。彼らの動向はより注意深く観察していかねばならないだろう。"
+hmcc_polices.421.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
+

@@ -1,0 +1,666 @@
+namespace = mb_main_start
+# file modifies start planets to be a Tomb World Start
+# by cbshing
+
+# Triggers when the game starts
+# assign custom start flag for custom start message
+
+namespace = hmcc_polices
+
+################################################################################
+## •òŽd -> ’Êí
+country_event = {
+	id = hmcc_polices.100
+	title = hmcc_polices.100.name
+	desc = hmcc_polices.100.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		#is_ai = no
+		has_civic = civic_machine_servitor 
+		has_policy_flag = policiesHamuFlexibleMachine_normal
+	}
+
+	option = {
+		name = hmcc_polices.100.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.101 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+
+			}
+		}
+	}
+}
+## •òŽd -> ’Êí
+country_event = {
+	id = hmcc_polices.101
+	title = hmcc_polices.101.name
+	desc = hmcc_polices.101.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.101.a.name
+	}
+}
+
+################################################################################
+## ŽEC -> ’Êí
+country_event = {
+	id = hmcc_polices.110
+	title = hmcc_polices.110.name
+	desc = hmcc_polices.110.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_terminator 
+		has_policy_flag = policiesHamuFlexibleMachine_normal
+	}
+
+	option = {
+		name = hmcc_polices.110.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.111 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+
+			}
+		}
+	}
+}
+
+## ŽEC -> ’Êí
+country_event = {
+	id = hmcc_polices.111
+	title = hmcc_polices.111.name
+	desc = hmcc_polices.111.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.111.a.name
+	}
+}
+
+################################################################################
+## “¯‰» -> ’Êí
+country_event = {
+	id = hmcc_polices.120
+	title = hmcc_polices.120.name
+	desc = hmcc_polices.120.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_assimilator 
+		has_policy_flag = policiesHamuFlexibleMachine_normal
+	}
+
+	option = {
+		name = hmcc_polices.120.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.121 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+
+			}
+		}
+	}
+}
+
+## “¯‰» -> ’Êí
+country_event = {
+	id = hmcc_polices.121
+	title = hmcc_polices.121.name
+	desc = hmcc_polices.121.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.121.a.name
+	}
+}
+
+################################################################################
+## ’Êí -> •òŽd
+country_event = {
+	id = hmcc_polices.200
+	title = hmcc_polices.200.name
+	desc = hmcc_polices.200.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		NOR = {
+			has_civic = civic_machine_servitor 
+			has_civic = civic_machine_terminator 
+			has_civic = civic_machine_assimilator 
+		}
+		has_policy_flag = policiesHamuFlexibleMachine_servitor
+	}
+
+	option = {
+		name = hmcc_polices.200.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.201 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_servitor
+			}
+		}
+	}
+}
+## ’Êí -> •òŽd
+country_event = {
+	id = hmcc_polices.201
+	title = hmcc_polices.201.name
+	desc = hmcc_polices.201.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.201.a.name
+	}
+}
+
+################################################################################
+## ŽEC -> •òŽd
+country_event = {
+	id = hmcc_polices.210
+	title = hmcc_polices.210.name
+	desc = hmcc_polices.210.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_terminator 
+		has_policy_flag = policiesHamuFlexibleMachine_servitor
+	}
+
+	option = {
+		name = hmcc_polices.210.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.211 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_servitor
+			}
+		}
+	}
+}
+
+## ŽEC -> •òŽd
+country_event = {
+	id = hmcc_polices.211
+	title = hmcc_polices.211.name
+	desc = hmcc_polices.211.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.211.a.name
+	}
+}
+
+################################################################################
+## “¯‰» -> •òŽd
+country_event = {
+	id = hmcc_polices.220
+	title = hmcc_polices.220.name
+	desc = hmcc_polices.220.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_assimilator 
+		has_policy_flag = policiesHamuFlexibleMachine_servitor
+	}
+
+	option = {
+		name = hmcc_polices.220.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.221 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_servitor
+			}
+		}
+	}
+}
+
+## “¯‰» -> •òŽd
+country_event = {
+	id = hmcc_polices.221
+	title = hmcc_polices.221.name
+	desc = hmcc_polices.221.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.221.a.name
+	}
+}
+
+################################################################################
+## ’Êí -> ŽEC
+country_event = {
+	id = hmcc_polices.300
+	title = hmcc_polices.300.name
+	desc = hmcc_polices.300.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		NOR = {
+			has_civic = civic_machine_servitor 
+			has_civic = civic_machine_terminator 
+			has_civic = civic_machine_assimilator 
+		}
+		has_policy_flag = policiesHamuFlexibleMachine_terminator
+	}
+
+	option = {
+		name = hmcc_polices.300.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.301 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_terminator
+			}
+		}
+	}
+}
+## ’Êí -> ŽEC
+country_event = {
+	id = hmcc_polices.301
+	title = hmcc_polices.301.name
+	desc = hmcc_polices.301.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_red_alert
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.301.a.name
+	}
+}
+
+################################################################################
+## •òŽd -> ŽEC
+country_event = {
+	id = hmcc_polices.310
+	title = hmcc_polices.310.name
+	desc = hmcc_polices.310.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+	location = root
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_servitor 
+		has_policy_flag = policiesHamuFlexibleMachine_terminator
+	}
+
+	option = {
+		name = hmcc_polices.310.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.311 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_terminator
+			}
+		}
+	}
+}
+
+## •òŽd -> ŽEC
+country_event = {
+	id = hmcc_polices.311
+	title = hmcc_polices.311.name
+	desc = hmcc_polices.311.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_red_alert
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.311.a.name
+	}
+}
+
+################################################################################
+## “¯‰» -> ŽEC
+country_event = {
+	id = hmcc_polices.320
+	title = hmcc_polices.320.name
+	desc = hmcc_polices.320.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_assimilator 
+		has_policy_flag = policiesHamuFlexibleMachine_terminator
+	}
+
+	option = {
+		name = hmcc_polices.320.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.321 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_terminator
+			}
+		}
+	}
+}
+
+## “¯‰» -> ŽEC
+country_event = {
+	id = hmcc_polices.321
+	title = hmcc_polices.321.name
+	desc = hmcc_polices.321.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_red_alert
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.321.a.name
+	}
+}
+
+################################################################################
+## ’Êí -> “¯‰»
+country_event = {
+	id = hmcc_polices.400
+	title = hmcc_polices.400.name
+	desc = hmcc_polices.400.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		NOR = {
+			has_civic = civic_machine_servitor 
+			has_civic = civic_machine_terminator 
+			has_civic = civic_machine_assimilator 
+		}
+		has_policy_flag = policiesHamuFlexibleMachine_assimilator
+	}
+
+	option = {
+		name = hmcc_polices.400.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.401 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+## ’Êí -> “¯‰»
+country_event = {
+	id = hmcc_polices.401
+	title = hmcc_polices.401.name
+	desc = hmcc_polices.401.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.401.a.name
+	}
+}
+
+################################################################################
+## •òŽd -> “¯‰»
+country_event = {
+	id = hmcc_polices.410
+	title = hmcc_polices.410.name
+	desc = hmcc_polices.410.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_servitor 
+		has_policy_flag = policiesHamuFlexibleMachine_assimilator
+	}
+
+	option = {
+		name = hmcc_polices.410.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.411 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+## •òŽd -> “¯‰»
+country_event = {
+	id = hmcc_polices.411
+	title = hmcc_polices.411.name
+	desc = hmcc_polices.411.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.411.a.name
+	}
+}
+
+################################################################################
+## ŽEC -> “¯‰»
+country_event = {
+	id = hmcc_polices.420
+	title = hmcc_polices.420.name
+	desc = hmcc_polices.420.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_machine_terminator 
+		has_policy_flag = policiesHamuFlexibleMachine_assimilator
+	}
+
+	option = {
+		name = hmcc_polices.420.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.421 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_machine_assimilator
+			}
+		}
+	}
+}
+
+## ŽEC -> “¯‰»
+country_event = {
+	id = hmcc_polices.421
+	title = hmcc_polices.421.name
+	desc = hmcc_polices.421.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		id = hmcc_polices.421.a.name
+	}
+}
+

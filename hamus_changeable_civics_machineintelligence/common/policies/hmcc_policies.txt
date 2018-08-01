@@ -1,0 +1,97 @@
+##########################################################################
+# Empire Policies
+#
+# #####
+#
+# AI:
+# Base AI-weight is 100, if unchanged
+# AI will grab whatever policy-option has the highest weight
+#
+# #####
+# ï˚êj
+#
+##########################################################################
+# ã@äBímê´ÇÃï˚êj
+hamuFlexibleMachine = {
+	potential = {
+		# ã@äBímê´
+		has_authority = auth_machine_intelligence
+	}
+	
+	option = {
+		# ã@äBímê´
+		name = "policiesHamuFlexibleMachine_0"
+
+		policy_flags = {
+			policiesHamuFlexibleMachine_normal
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				NOR = {
+					has_civic = civic_machine_servitor 
+					has_civic = civic_machine_terminator 
+					has_civic = civic_machine_assimilator 
+				}
+			}
+		}
+	}
+
+	option = {
+		# ïÚédímê´
+		name = "policiesHamuFlexibleMachine_1"
+
+		policy_flags = {
+			policiesHamuFlexibleMachine_servitor
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				has_civic = civic_machine_servitor 
+			}
+		}
+	}
+
+	option = {
+		# éEùCímê´
+		name = "policiesHamuFlexibleMachine_2"
+
+		policy_flags = {
+			policiesHamuFlexibleMachine_terminator
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				has_civic = civic_machine_terminator 
+			}
+		}
+	}
+
+	option = {
+		# ìØâªã@äB
+		name = "policiesHamuFlexibleMachine_3"
+
+		policy_flags = {
+			policiesHamuFlexibleMachine_assimilator
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				has_civic = civic_machine_assimilator 
+			}
+		}
+	}
+}
+
