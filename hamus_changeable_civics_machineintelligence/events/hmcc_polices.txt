@@ -8,7 +8,7 @@ namespace = mb_main_start
 namespace = hmcc_polices
 
 ################################################################################
-## •òd -> ’Êí
+## å¥‰ä»• -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.100
 	title = hmcc_polices.100.name
@@ -44,7 +44,7 @@ country_event = {
 		}
 	}
 }
-## •òd -> ’Êí
+## å¥‰ä»• -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.101
 	title = hmcc_polices.101.name
@@ -61,7 +61,7 @@ country_event = {
 }
 
 ################################################################################
-## EC -> ’Êí
+## æ®ºæˆ® -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.110
 	title = hmcc_polices.110.name
@@ -98,7 +98,7 @@ country_event = {
 	}
 }
 
-## EC -> ’Êí
+## æ®ºæˆ® -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.111
 	title = hmcc_polices.111.name
@@ -115,7 +115,7 @@ country_event = {
 }
 
 ################################################################################
-## “¯‰» -> ’Êí
+## åŒåŒ– -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.120
 	title = hmcc_polices.120.name
@@ -152,7 +152,7 @@ country_event = {
 	}
 }
 
-## “¯‰» -> ’Êí
+## åŒåŒ– -> é€šå¸¸
 country_event = {
 	id = hmcc_polices.121
 	title = hmcc_polices.121.name
@@ -169,7 +169,7 @@ country_event = {
 }
 
 ################################################################################
-## ’Êí -> •òd
+## é€šå¸¸ -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.200
 	title = hmcc_polices.200.name
@@ -209,7 +209,7 @@ country_event = {
 		}
 	}
 }
-## ’Êí -> •òd
+## é€šå¸¸ -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.201
 	title = hmcc_polices.201.name
@@ -226,7 +226,7 @@ country_event = {
 }
 
 ################################################################################
-## EC -> •òd
+## æ®ºæˆ® -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.210
 	title = hmcc_polices.210.name
@@ -263,7 +263,7 @@ country_event = {
 	}
 }
 
-## EC -> •òd
+## æ®ºæˆ® -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.211
 	title = hmcc_polices.211.name
@@ -280,7 +280,7 @@ country_event = {
 }
 
 ################################################################################
-## “¯‰» -> •òd
+## åŒåŒ– -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.220
 	title = hmcc_polices.220.name
@@ -317,7 +317,7 @@ country_event = {
 	}
 }
 
-## “¯‰» -> •òd
+## åŒåŒ– -> å¥‰ä»•
 country_event = {
 	id = hmcc_polices.221
 	title = hmcc_polices.221.name
@@ -334,7 +334,7 @@ country_event = {
 }
 
 ################################################################################
-## ’Êí -> EC
+## é€šå¸¸ -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.300
 	title = hmcc_polices.300.name
@@ -374,7 +374,7 @@ country_event = {
 		}
 	}
 }
-## ’Êí -> EC
+## é€šå¸¸ -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.301
 	title = hmcc_polices.301.name
@@ -391,7 +391,7 @@ country_event = {
 }
 
 ################################################################################
-## •òd -> EC
+## å¥‰ä»• -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.310
 	title = hmcc_polices.310.name
@@ -429,7 +429,7 @@ country_event = {
 	}
 }
 
-## •òd -> EC
+## å¥‰ä»• -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.311
 	title = hmcc_polices.311.name
@@ -446,7 +446,7 @@ country_event = {
 }
 
 ################################################################################
-## “¯‰» -> EC
+## åŒåŒ– -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.320
 	title = hmcc_polices.320.name
@@ -483,7 +483,7 @@ country_event = {
 	}
 }
 
-## “¯‰» -> EC
+## åŒåŒ– -> æ®ºæˆ®
 country_event = {
 	id = hmcc_polices.321
 	title = hmcc_polices.321.name
@@ -500,7 +500,7 @@ country_event = {
 }
 
 ################################################################################
-## ’Êí -> “¯‰»
+## é€šå¸¸ -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.400
 	title = hmcc_polices.400.name
@@ -540,7 +540,7 @@ country_event = {
 		}
 	}
 }
-## ’Êí -> “¯‰»
+## é€šå¸¸ -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.401
 	title = hmcc_polices.401.name
@@ -557,7 +557,7 @@ country_event = {
 }
 
 ################################################################################
-## •òd -> “¯‰»
+## å¥‰ä»• -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.410
 	title = hmcc_polices.410.name
@@ -594,7 +594,7 @@ country_event = {
 	}
 }
 
-## •òd -> “¯‰»
+## å¥‰ä»• -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.411
 	title = hmcc_polices.411.name
@@ -611,7 +611,7 @@ country_event = {
 }
 
 ################################################################################
-## EC -> “¯‰»
+## æ®ºæˆ® -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.420
 	title = hmcc_polices.420.name
@@ -648,7 +648,7 @@ country_event = {
 	}
 }
 
-## EC -> “¯‰»
+## æ®ºæˆ® -> åŒåŒ–
 country_event = {
 	id = hmcc_polices.421
 	title = hmcc_polices.421.name
