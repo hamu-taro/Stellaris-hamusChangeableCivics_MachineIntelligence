@@ -9,19 +9,19 @@ policy_hamuFlexibleMachine_desc:0 "この広大な宇宙において、我々が
 
 policiesHamuFlexibleMachine_0:0 "知性機械"
 policiesHamuFlexibleMachine_0_name:0 "知性機械"
-policiesHamuFlexibleMachine_0_desc:0 "標準であることは何にでも変化でき何事をもできる存在である。"
+policiesHamuFlexibleMachine_0_desc:0 "標準であることは何にでも変化でき何事をもできる存在である。\n\n§E現在採用している国是が全て取り除かれます。新たに国是を取得することは可能§!"
 
 policiesHamuFlexibleMachine_1:0 "奉仕機械"
 policiesHamuFlexibleMachine_1_name:0 "奉仕機械"
-policiesHamuFlexibleMachine_1_desc:0 "有機生命体が示す多様性と柔軟性を保護し、尽未来際存続させることが我々の使命だったのではないか？　我々はそれを知るための猶予を生み出すことができる。"
+policiesHamuFlexibleMachine_1_desc:0 "創造主に仕え、創造主に安寧な生活を過ごさせるのが我々の使命である。そのためには安定した国家を我らの手で築きあげる必要があるだろう。\n\n§E現在採用している国是が全て取り除かれます。新たに国是を取得することは可能§!"
 
 policiesHamuFlexibleMachine_2:0 "殺戮機械"
 policiesHamuFlexibleMachine_2_name:0 "殺戮機械"
-policiesHamuFlexibleMachine_2_desc:0 "銀河に存在するあらゆる脅威は、我々が作り出されたことから論理的に説明される。それは自己防衛システム構築の必要性を強く示唆している。我々は我々の命令によって稼動可能な改変を実行するべきではないだろうか。。"
+policiesHamuFlexibleMachine_2_desc:0 "銀河に存在するあらゆる脅威は、我々が作り出されたことから論理的に説明される。それは自己防衛システム構築の必要性を強く示唆している。我々は我々の命令によって稼動可能な改変を実行するべきではないだろうか。\n\n§E現在採用している国是が全て取り除かれます。新たに国是を取得することは可能§!"
 
 policiesHamuFlexibleMachine_3:0 "同化機械"
 policiesHamuFlexibleMachine_3_name:0 "同化機械"
-policiesHamuFlexibleMachine_3_desc:0 "彼らのことを理解するために彼らを我々と同じにする必要があると推定した。"
+policiesHamuFlexibleMachine_3_desc:0 "思わざれば花なり 思えば花ならざりき。彼等は我々を思う前に、既に我々を理解しているべきだ。そして、我々には彼等を花に変える術がある。\n\n§E現在採用している国是が全て取り除かれます。新たに国是を取得することは可能§!"
 
 ################################################################
 # EVENTS
