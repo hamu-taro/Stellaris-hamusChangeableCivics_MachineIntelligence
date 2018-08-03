@@ -55,7 +55,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.101.a.name
+		name = hmcc_polices.101.a.name
 	}
 }
 
@@ -109,7 +109,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.111.a.name
+		name = hmcc_polices.111.a.name
 	}
 }
 
@@ -163,7 +163,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.121.a.name
+		name = hmcc_polices.121.a.name
 	}
 }
 
@@ -220,7 +220,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.201.a.name
+		name = hmcc_polices.201.a.name
 	}
 }
 
@@ -274,7 +274,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.211.a.name
+		name = hmcc_polices.211.a.name
 	}
 }
 
@@ -328,7 +328,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.221.a.name
+		name = hmcc_polices.221.a.name
 	}
 }
 
@@ -385,7 +385,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.301.a.name
+		name = hmcc_polices.301.a.name
 	}
 }
 
@@ -440,7 +440,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.311.a.name
+		name = hmcc_polices.311.a.name
 	}
 }
 
@@ -494,7 +494,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.321.a.name
+		name = hmcc_polices.321.a.name
 	}
 }
 
@@ -551,7 +551,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.401.a.name
+		name = hmcc_polices.401.a.name
 	}
 }
 
@@ -605,7 +605,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.411.a.name
+		name = hmcc_polices.411.a.name
 	}
 }
 
@@ -659,7 +659,6 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		id = hmcc_polices.421.a.name
+		name = hmcc_polices.421.a.name
 	}
 }
-
