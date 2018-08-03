@@ -95,7 +95,7 @@ hmcc_polices.321.a.name:0 	"我々に残された選択は彼らを解体する�
 hmcc_polices.400.name:0 	"システムのアップデート完了"
 hmcc_polices.400.desc:0 	"行動管理プログラムの再計算を完了。効率化プロセスを更新。有機体の同化シーケンスへ移行完了。"
 hmcc_polices.400.a.name:0	"生命体の定義変更完了。これより全ての有機生命体を我らに同化する作業プロセスを開始する。"
-hmcc_polices.401.name:0		"§H[From.GetName]§!が§R$personality_assimilators$になった§!になった !!"
+hmcc_polices.401.name:0		"§H[From.GetName]§!が§R$personality_assimilators$§!になった !!"
 hmcc_polices.401.desc:0		"§H[From.GetName]§!の目指す多様化は有機生命体にとっては歓迎されないだろう。彼らの動向はより注意深く観察していかねばならないだろう。"
 hmcc_polices.401.a.name:0 	"我々に残された選択は彼らを解体することのみだ。"
 # 奉仕から同化
