@@ -7,7 +7,7 @@
 namespace = hmcc_polices
 
 ################################################################################
-## 奉仕 -> 通常
+## 奉仕 -> 通常(自分)
 country_event = {
 	id = hmcc_polices.100
 	title = hmcc_polices.100.name
@@ -43,7 +43,7 @@ country_event = {
 		}
 	}
 }
-## 奉仕 -> 通常
+## 奉仕 -> 通常(自分以外)
 country_event = {
 	id = hmcc_polices.101
 	title = hmcc_polices.101.name
@@ -60,7 +60,7 @@ country_event = {
 }
 
 ################################################################################
-## 殺戮 -> 通常
+## 殺戮 -> 通常(自分)
 country_event = {
 	id = hmcc_polices.110
 	title = hmcc_polices.110.name
@@ -97,7 +97,7 @@ country_event = {
 	}
 }
 
-## 殺戮 -> 通常
+## 殺戮 -> 通常(自分以外)
 country_event = {
 	id = hmcc_polices.111
 	title = hmcc_polices.111.name
@@ -114,7 +114,7 @@ country_event = {
 }
 
 ################################################################################
-## 同化 -> 通常
+## 同化 -> 通常(自分)
 country_event = {
 	id = hmcc_polices.120
 	title = hmcc_polices.120.name
@@ -151,7 +151,7 @@ country_event = {
 	}
 }
 
-## 同化 -> 通常
+## 同化 -> 通常(自分以外)
 country_event = {
 	id = hmcc_polices.121
 	title = hmcc_polices.121.name
@@ -168,7 +168,7 @@ country_event = {
 }
 
 ################################################################################
-## 通常 -> 奉仕
+## 通常 -> 奉仕(自分)
 country_event = {
 	id = hmcc_polices.200
 	title = hmcc_polices.200.name
@@ -208,7 +208,7 @@ country_event = {
 		}
 	}
 }
-## 通常 -> 奉仕
+## 通常 -> 奉仕(自分以外)
 country_event = {
 	id = hmcc_polices.201
 	title = hmcc_polices.201.name
@@ -225,7 +225,7 @@ country_event = {
 }
 
 ################################################################################
-## 殺戮 -> 奉仕
+## 殺戮 -> 奉仕(自分)
 country_event = {
 	id = hmcc_polices.210
 	title = hmcc_polices.210.name
@@ -262,7 +262,7 @@ country_event = {
 	}
 }
 
-## 殺戮 -> 奉仕
+## 殺戮 -> 奉仕(自分以外)
 country_event = {
 	id = hmcc_polices.211
 	title = hmcc_polices.211.name
@@ -279,7 +279,7 @@ country_event = {
 }
 
 ################################################################################
-## 同化 -> 奉仕
+## 同化 -> 奉仕(自分)
 country_event = {
 	id = hmcc_polices.220
 	title = hmcc_polices.220.name
@@ -316,7 +316,7 @@ country_event = {
 	}
 }
 
-## 同化 -> 奉仕
+## 同化 -> 奉仕(自分以外)
 country_event = {
 	id = hmcc_polices.221
 	title = hmcc_polices.221.name
@@ -333,7 +333,7 @@ country_event = {
 }
 
 ################################################################################
-## 通常 -> 殺戮
+## 通常 -> 殺戮(自分)
 country_event = {
 	id = hmcc_polices.300
 	title = hmcc_polices.300.name
@@ -373,7 +373,7 @@ country_event = {
 		}
 	}
 }
-## 通常 -> 殺戮
+## 通常 -> 殺戮(自分以外)
 country_event = {
 	id = hmcc_polices.301
 	title = hmcc_polices.301.name
@@ -390,7 +390,7 @@ country_event = {
 }
 
 ################################################################################
-## 奉仕 -> 殺戮
+## 奉仕 -> 殺戮(自分)
 country_event = {
 	id = hmcc_polices.310
 	title = hmcc_polices.310.name
@@ -428,7 +428,7 @@ country_event = {
 	}
 }
 
-## 奉仕 -> 殺戮
+## 奉仕 -> 殺戮(自分以外)
 country_event = {
 	id = hmcc_polices.311
 	title = hmcc_polices.311.name
@@ -445,7 +445,7 @@ country_event = {
 }
 
 ################################################################################
-## 同化 -> 殺戮
+## 同化 -> 殺戮(自分)
 country_event = {
 	id = hmcc_polices.320
 	title = hmcc_polices.320.name
@@ -482,7 +482,7 @@ country_event = {
 	}
 }
 
-## 同化 -> 殺戮
+## 同化 -> 殺戮(自分以外)
 country_event = {
 	id = hmcc_polices.321
 	title = hmcc_polices.321.name
@@ -499,7 +499,7 @@ country_event = {
 }
 
 ################################################################################
-## 通常 -> 同化
+## 通常 -> 同化(自分)
 country_event = {
 	id = hmcc_polices.400
 	title = hmcc_polices.400.name
@@ -539,7 +539,7 @@ country_event = {
 		}
 	}
 }
-## 通常 -> 同化
+## 通常 -> 同化(自分以外)
 country_event = {
 	id = hmcc_polices.401
 	title = hmcc_polices.401.name
@@ -556,7 +556,7 @@ country_event = {
 }
 
 ################################################################################
-## 奉仕 -> 同化
+## 奉仕 -> 同化(自分)
 country_event = {
 	id = hmcc_polices.410
 	title = hmcc_polices.410.name
@@ -593,7 +593,7 @@ country_event = {
 	}
 }
 
-## 奉仕 -> 同化
+## 奉仕 -> 同化(自分以外)
 country_event = {
 	id = hmcc_polices.411
 	title = hmcc_polices.411.name
@@ -610,7 +610,7 @@ country_event = {
 }
 
 ################################################################################
-## 殺戮 -> 同化
+## 殺戮 -> 同化(自分)
 country_event = {
 	id = hmcc_polices.420
 	title = hmcc_polices.420.name
@@ -647,7 +647,7 @@ country_event = {
 	}
 }
 
-## 殺戮 -> 同化
+## 殺戮 -> 同化(自分以外)
 country_event = {
 	id = hmcc_polices.421
 	title = hmcc_polices.421.name
@@ -660,5 +660,115 @@ country_event = {
 
 	option = {
 		name = hmcc_polices.421.a.name
+	}
+}
+################################################################################
+## 集合意識体
+################################################################################
+## 通常 -> 貪食する群れ Devouring Swarm(自分)
+country_event = {
+	id = hmcc_polices.1000
+	title = hmcc_polices.1000.name
+	desc = hmcc_polices.1000.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		NOT = {
+			has_civic = civic_hive_devouring_swarm							#  貪食する群
+		}
+		has_policy_flag = policiesHamuFlexibleSwarm_normal
+	}
+
+	option = {
+		name = hmcc_polices.1000.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.1001 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+				civic = civic_hive_devouring_swarm
+			}
+		}
+	}
+}
+
+## 通常 -> 貪食する群れ Devouring Swarm(自分以外)
+country_event = {
+	id = hmcc_polices.1001
+	title = hmcc_polices.1001.name
+	desc = hmcc_polices.1001.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = hmcc_polices.1001.a.name
+	}
+}
+
+## 貪食する群れ Devouring Swarm -> 通常(自分)
+country_event = {
+	id = hmcc_polices.1010
+	title = hmcc_polices.1010.name
+	desc = hmcc_polices.1010.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	trigger = {
+		is_ai = no
+		has_civic = civic_hive_devouring_swarm							#  貪食する群
+		has_policy_flag = policiesHamuFlexibleSwarm_devouring
+	}
+
+	option = {
+		name = hmcc_polices.1010.a.name
+		every_playable_country = {
+			limit = { 
+				AND = {
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+			}
+			country_event = { id = hmcc_polices.1011 }
+		}
+	}
+	
+	immediate = {
+		change_government = {
+			civics = {
+
+			}
+		}
+	}
+}
+
+## 貪食する群れ Devouring Swarm -> 通常(自分以外)
+country_event = {
+	id = hmcc_polices.1011
+	title = hmcc_polices.1011.name
+	desc = hmcc_polices.1011.desc
+	picture = GFX_evt_robot_assembly_plant
+	show_sound = event_administrative_work
+
+	location = from
+	is_triggered_only = yes
+
+	option = {
+		name = hmcc_polices.1011.a.name
 	}
 }

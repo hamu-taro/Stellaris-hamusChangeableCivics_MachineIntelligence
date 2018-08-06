@@ -95,3 +95,50 @@ hamuFlexibleMachine = {
 	}
 }
 
+##########################################################################
+# 集合意識の方針
+hamuFlexibleSwarm = {
+	potential = {
+		# 集合意識
+		has_authority = auth_hive_mind
+	}
+	
+	option = {
+		# 集合意識:なし
+		name = "policiesHamuFlexibleSwarm_0"
+
+		policy_flags = {
+			policiesHamuFlexibleSwarm_normal
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				NOR = {
+					has_civic = civic_hive_devouring_swarm 
+				}
+			}
+		}
+	}
+
+	option = {
+		# 集合意識:貪食する群れ
+		name = "policiesHamuFlexibleSwarm_1"
+
+		policy_flags = {
+			policiesHamuFlexibleSwarm_devouring
+		}
+
+		modifier = {}
+		
+		AI_weight = {
+			modifier = {
+				factor = 10
+				has_civic = civic_hive_devouring_swarm 
+			}
+		}
+	}
+}
+
