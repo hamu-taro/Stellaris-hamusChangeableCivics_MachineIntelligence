@@ -1,4 +1,4 @@
-# Stellaris MOD - hamusChangeable_civics_MachineIntelligence for 2.1.1
+# Stellaris MOD - hamusChangeable_civics_MachineIntelligence
 このリポジトリはParadox Interactive社のStellarisというゲームのMOD、hamusChangeable_civics_MachineIntelligenceのコードを管理するものです。 
 
 #  MOD概要
@@ -26,7 +26,6 @@
 「頑固な根絶機械」を取り除いたとき「頑固な根絶機械」固有の外交マイナスの補正はなくなります。ただし、虐殺していた場合の虐殺ペナルティは残ったままです。   
 通常の機械帝国から「頑固な根絶機械」になると「頑固な根絶機械」の外交のマイナス補正が発生するようになります。   
 
-
 # 協力者 
 Grenadinesugar - フレーバーテキスト作成   
 teruduki - フレーバーテキスト作成   
@@ -36,4 +35,5 @@ sarakuno - テストプレイヤー
 steam workshop : https://steamcommunity.com/sharedfiles/filedetails/?id=1456058195   
 
 # 変更履歴
-1.00b	  試験公開
+2018/08/07  1.00  Stellaris-v2.1.1 対応
+2018/08/01  1.00b 試験公開
