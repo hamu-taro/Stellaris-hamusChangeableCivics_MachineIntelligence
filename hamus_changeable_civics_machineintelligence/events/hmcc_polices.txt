@@ -675,10 +675,10 @@ country_event = {
 
 	trigger = {
 		is_ai = no
-		NOT = {
-			has_civic = civic_hive_devouring_swarm							#  貪食する群
-		}
-		has_policy_flag = policiesHamuFlexibleSwarm_normal
+		# 「貪食する群れ」を持っていないこと
+		NOT = { has_civic = civic_hive_devouring_swarm }
+		# 政策:「集合意識:貪食する群れ」のときに発動
+		has_policy_flag = policiesHamuFlexibleSwarm_devouring
 	}
 
 	option = {
@@ -730,8 +730,10 @@ country_event = {
 
 	trigger = {
 		is_ai = no
-		has_civic = civic_hive_devouring_swarm							#  貪食する群
-		has_policy_flag = policiesHamuFlexibleSwarm_devouring
+		# 「貪食する群れ」を持っていること
+		has_civic = civic_hive_devouring_swarm
+		# 政策:「集合意識:なし」のときに発動
+		has_policy_flag = policiesHamuFlexibleSwarm_normal
 	}
 
 	option = {
